@@ -11,7 +11,7 @@ section {
 }
 #home {
   background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url(home.jpg) no-repeat center /cover    ;
-  background-attachment: fixed;
+
 
 }
 
@@ -50,4 +50,10 @@ section h1 {
 p{
     text-align: justify;
   text-justify: inter-word;
+}
+
+@media (max-width: 768px){
+  #home{
+    min-height: 60vh;
+  }
 }
