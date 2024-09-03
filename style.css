@@ -10,7 +10,7 @@ section {
   min-width: 100%;
 }
 #home {
-  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url(home.JPG) no-repeat center /cover    ;
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url(imgs/home.JPG) no-repeat center /cover    ;
 
 
 }
@@ -28,8 +28,10 @@ background-color: black;  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
 
 
+.navbar-black{
+  background-color: black;  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 
-
+}
 section{
     background-color: rgb(33, 37, 41);
     color: white;
@@ -57,3 +59,5 @@ p{
     min-height: 60vh;
   }
 }
+
+  
